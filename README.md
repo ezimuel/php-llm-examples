@@ -40,7 +40,7 @@ ollama run llama3
 For OpenAI API example usage look at the following scripts:
 
 - [openai_chat](src/openai_chat.php), a simple chat use case;
-- [openai_image](src/openai_image.php, generate an image using `dall-e-3` model;
+- [openai_image](src/openai_image.php), generate an image using `dall-e-3` model;
 - [openai_speech](src/openai_speech.php), text-to-speech example using `tts-1` model;
 - [openai_moderation](src/openai_moderation.php), moderation using `text-moderation-latest` model;
 - [openai_function](src/openai_function.php), [function calling](https://platform.openai.com/docs/guides/function-calling) example;
