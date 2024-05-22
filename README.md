@@ -1,4 +1,4 @@
-# Examples of using Large Language Models in PHP
+# Examples of using LLM in PHP
 
 In this repository, I collected some PHP examples about the usage 
 of Generative AI and Large Language Model (LLM) in PHP.
