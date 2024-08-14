@@ -15,4 +15,4 @@ $response = $client->audio()->speech([
     'speed' => 0.95
 ]);
 
-file_put_contents('phpday.mp3', $response);
+file_put_contents('good_morning.mp3', $response);

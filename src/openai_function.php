@@ -25,7 +25,7 @@ function get_current_weather(string $location, string $unit = 'celsius'): string
 $question = 'What\'s the weather like in Turin?';
 
 $response = $client->chat()->create([
-    'model' => 'gpt-3.5-turbo-0613',
+    'model' => 'gpt-3.5-turbo',
     'messages' => [
         ['role' => 'user', 'content' => $question],
     ],
@@ -64,7 +64,7 @@ foreach ($response->choices as $choice) {
             $result = call_user_func($call->function->name, ...$arguments);
             if (!empty($result)) {
                 $response = $client->chat()->create([
-                    'model' => 'gpt-3.5-turbo-0613',
+                    'model' => 'gpt-3.5-turbo',
                     'messages' => [
                         [
                             'role' => 'system', 

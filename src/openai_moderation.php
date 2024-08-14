@@ -23,5 +23,3 @@ foreach ($response->results as $result) {
         printf("Score: %.4f\n", $category->score); // 0.97431367635727
     }
 }
-
-#var_dump($response->toArray());

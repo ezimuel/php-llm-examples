@@ -25,7 +25,7 @@ printf("Number of PDF files: %d\n", count($documents));
 
 # Document split
 printf("- Document split\n");
-$splitDocuments = DocumentSplitter::splitDocuments($documents, 1000);
+$splitDocuments = DocumentSplitter::splitDocuments($documents, 500);
 printf("Number of splitted documents (chunk): %d\n", count($splitDocuments));
 
 # Embedding
