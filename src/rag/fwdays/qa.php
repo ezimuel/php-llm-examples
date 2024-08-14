@@ -40,5 +40,5 @@ printf("-- Answer:\n%s\n", $answer);
 
 foreach ($qa->getRetrievedDocuments() as $doc) {
     printf("-- Document: %s\n", $doc->sourceName);
-    printf("-- Content (%d characters): %s\n", strlen($doc->content), $doc->content);
+    printf("-- Content (%d characters): %s\n", strlen($doc->content), substr($doc->content, 0, 100));
 }
